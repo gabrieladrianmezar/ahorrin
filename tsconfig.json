@@ -1,0 +1,17 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true
+	}
+	// Los alias de ruta son manejados por https://kit.svelte.dev/docs/configuration#alias
+	//
+	// Si deseas sobrescribir los includes/excludes, asegúrate de copiar los includes/excludes relevantes
+	// del tsconfig.json referenciado - TypeScript no los fusiona.
+}
